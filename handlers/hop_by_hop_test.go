@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/handlers"
-	logger_fakes "code.cloudfoundry.org/gorouter/logger/fakes"
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/handlers"
+	logger_fakes "github.com/mdimiceli/gorouter/logger/fakes"
+	"github.com/mdimiceli/gorouter/route"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

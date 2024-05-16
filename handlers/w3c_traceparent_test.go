@@ -3,7 +3,7 @@ package handlers_test
 import (
 	"encoding/hex"
 
-	"code.cloudfoundry.org/gorouter/handlers"
+	"github.com/mdimiceli/gorouter/handlers"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

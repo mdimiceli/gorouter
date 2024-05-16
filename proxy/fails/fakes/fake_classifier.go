@@ -4,7 +4,7 @@ package fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/gorouter/proxy/fails"
+	"github.com/mdimiceli/gorouter/proxy/fails"
 )
 
 type Classifier struct {

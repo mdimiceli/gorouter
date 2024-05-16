@@ -7,8 +7,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"code.cloudfoundry.org/gorouter/common/secure"
-	"code.cloudfoundry.org/gorouter/logger"
+	"github.com/mdimiceli/gorouter/common/secure"
+	"github.com/mdimiceli/gorouter/logger"
 )
 
 const (

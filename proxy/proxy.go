@@ -11,24 +11,24 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/common/health"
+	"github.com/mdimiceli/gorouter/common/health"
 
 	"github.com/cloudfoundry/dropsonde"
 	"go.uber.org/zap"
 	"github.com/urfave/negroni/v3"
 
-	"code.cloudfoundry.org/gorouter/accesslog"
-	router_http "code.cloudfoundry.org/gorouter/common/http"
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/errorwriter"
-	"code.cloudfoundry.org/gorouter/handlers"
-	"code.cloudfoundry.org/gorouter/logger"
-	"code.cloudfoundry.org/gorouter/metrics"
-	"code.cloudfoundry.org/gorouter/proxy/fails"
-	"code.cloudfoundry.org/gorouter/proxy/round_tripper"
-	"code.cloudfoundry.org/gorouter/proxy/utils"
-	"code.cloudfoundry.org/gorouter/registry"
-	"code.cloudfoundry.org/gorouter/routeservice"
+	"github.com/mdimiceli/gorouter/accesslog"
+	router_http "github.com/mdimiceli/gorouter/common/http"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/errorwriter"
+	"github.com/mdimiceli/gorouter/handlers"
+	"github.com/mdimiceli/gorouter/logger"
+	"github.com/mdimiceli/gorouter/metrics"
+	"github.com/mdimiceli/gorouter/proxy/fails"
+	"github.com/mdimiceli/gorouter/proxy/round_tripper"
+	"github.com/mdimiceli/gorouter/proxy/utils"
+	"github.com/mdimiceli/gorouter/registry"
+	"github.com/mdimiceli/gorouter/routeservice"
 )
 
 var (

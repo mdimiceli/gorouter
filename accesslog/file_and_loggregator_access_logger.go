@@ -7,9 +7,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"code.cloudfoundry.org/gorouter/accesslog/schema"
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/logger"
+	"github.com/mdimiceli/gorouter/accesslog/schema"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/logger"
 
 	"os"
 )

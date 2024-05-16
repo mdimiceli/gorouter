@@ -6,11 +6,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/accesslog"
-	"code.cloudfoundry.org/gorouter/accesslog/schema"
-	router_http "code.cloudfoundry.org/gorouter/common/http"
-	"code.cloudfoundry.org/gorouter/logger"
-	"code.cloudfoundry.org/gorouter/proxy/utils"
+	"github.com/mdimiceli/gorouter/accesslog"
+	"github.com/mdimiceli/gorouter/accesslog/schema"
+	router_http "github.com/mdimiceli/gorouter/common/http"
+	"github.com/mdimiceli/gorouter/logger"
+	"github.com/mdimiceli/gorouter/proxy/utils"
 
 	"go.uber.org/zap"
 	"github.com/urfave/negroni/v3"

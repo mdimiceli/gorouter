@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/common"
-	"code.cloudfoundry.org/gorouter/common/uuid"
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/logger"
-	"code.cloudfoundry.org/gorouter/registry"
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/common"
+	"github.com/mdimiceli/gorouter/common/uuid"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/logger"
+	"github.com/mdimiceli/gorouter/registry"
+	"github.com/mdimiceli/gorouter/route"
 	"code.cloudfoundry.org/localip"
 	"code.cloudfoundry.org/routing-api/models"
 

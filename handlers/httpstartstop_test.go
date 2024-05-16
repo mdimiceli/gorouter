@@ -9,12 +9,12 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"code.cloudfoundry.org/gorouter/logger"
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/logger"
+	"github.com/mdimiceli/gorouter/route"
 
-	"code.cloudfoundry.org/gorouter/common/uuid"
-	"code.cloudfoundry.org/gorouter/handlers"
-	"code.cloudfoundry.org/gorouter/test_util"
+	"github.com/mdimiceli/gorouter/common/uuid"
+	"github.com/mdimiceli/gorouter/handlers"
+	"github.com/mdimiceli/gorouter/test_util"
 
 	"github.com/cloudfoundry/dropsonde/emitter/fake"
 	"github.com/cloudfoundry/sonde-go/events"

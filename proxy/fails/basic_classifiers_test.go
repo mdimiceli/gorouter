@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/proxy/fails"
-	"code.cloudfoundry.org/gorouter/test_util"
+	"github.com/mdimiceli/gorouter/proxy/fails"
+	"github.com/mdimiceli/gorouter/test_util"
 
 	"golang.org/x/net/context"
 

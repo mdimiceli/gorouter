@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	router_http "code.cloudfoundry.org/gorouter/common/http"
-	"code.cloudfoundry.org/gorouter/handlers"
+	router_http "github.com/mdimiceli/gorouter/common/http"
+	"github.com/mdimiceli/gorouter/handlers"
 )
 
 func (p *proxy) modifyResponse(res *http.Response) error {

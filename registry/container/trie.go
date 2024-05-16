@@ -3,7 +3,7 @@ package container
 import (
 	"strings"
 
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/route"
 )
 
 // package name inspired by golang package that includes heap, list and ring.

@@ -3,11 +3,11 @@ package handlers
 import (
 	"net/http"
 
-	"code.cloudfoundry.org/gorouter/logger"
+	"github.com/mdimiceli/gorouter/logger"
 	"go.uber.org/zap"
 	"github.com/urfave/negroni/v3"
 
-	"code.cloudfoundry.org/gorouter/proxy/utils"
+	"github.com/mdimiceli/gorouter/proxy/utils"
 )
 
 type proxyWriterHandler struct {

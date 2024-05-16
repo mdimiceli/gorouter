@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/route"
 )
 
 var (

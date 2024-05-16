@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	common "code.cloudfoundry.org/gorouter/common/http"
-	"code.cloudfoundry.org/gorouter/config"
+	common "github.com/mdimiceli/gorouter/common/http"
+	"github.com/mdimiceli/gorouter/config"
 )
 
 type RoutesListener struct {

@@ -1,13 +1,13 @@
 package varz_test
 
 import (
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/logger"
-	"code.cloudfoundry.org/gorouter/metrics/fakes"
-	"code.cloudfoundry.org/gorouter/registry"
-	"code.cloudfoundry.org/gorouter/route"
-	"code.cloudfoundry.org/gorouter/test_util"
-	. "code.cloudfoundry.org/gorouter/varz"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/logger"
+	"github.com/mdimiceli/gorouter/metrics/fakes"
+	"github.com/mdimiceli/gorouter/registry"
+	"github.com/mdimiceli/gorouter/route"
+	"github.com/mdimiceli/gorouter/test_util"
+	. "github.com/mdimiceli/gorouter/varz"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 

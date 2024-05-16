@@ -1,7 +1,7 @@
 package round_tripper
 
 import (
-	router_http "code.cloudfoundry.org/gorouter/common/http"
+	router_http "github.com/mdimiceli/gorouter/common/http"
 	"context"
 	"errors"
 	"fmt"
@@ -17,14 +17,14 @@ import (
 
 	"go.uber.org/zap"
 
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/handlers"
-	"code.cloudfoundry.org/gorouter/logger"
-	"code.cloudfoundry.org/gorouter/metrics"
-	"code.cloudfoundry.org/gorouter/proxy/fails"
-	"code.cloudfoundry.org/gorouter/proxy/utils"
-	"code.cloudfoundry.org/gorouter/route"
-	"code.cloudfoundry.org/gorouter/routeservice"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/handlers"
+	"github.com/mdimiceli/gorouter/logger"
+	"github.com/mdimiceli/gorouter/metrics"
+	"github.com/mdimiceli/gorouter/proxy/fails"
+	"github.com/mdimiceli/gorouter/proxy/utils"
+	"github.com/mdimiceli/gorouter/route"
+	"github.com/mdimiceli/gorouter/routeservice"
 )
 
 const (

@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strings"
 
-	router_http "code.cloudfoundry.org/gorouter/common/http"
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/logger"
-	"code.cloudfoundry.org/gorouter/route"
+	router_http "github.com/mdimiceli/gorouter/common/http"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/logger"
+	"github.com/mdimiceli/gorouter/route"
 )
 
 const (

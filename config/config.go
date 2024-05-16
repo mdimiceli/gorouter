@@ -10,7 +10,7 @@ import (
 
 	"go.step.sm/crypto/pemutil"
 
-	"code.cloudfoundry.org/gorouter/logger"
+	"github.com/mdimiceli/gorouter/logger"
 	"go.uber.org/zap"
 	"gopkg.in/yaml.v2"
 

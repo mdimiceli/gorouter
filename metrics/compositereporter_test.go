@@ -1,15 +1,15 @@
 package metrics_test
 
 import (
-	"code.cloudfoundry.org/gorouter/metrics/fakes"
+	"github.com/mdimiceli/gorouter/metrics/fakes"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
 	"net/http"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/metrics"
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/metrics"
+	"github.com/mdimiceli/gorouter/route"
 )
 
 var _ = Describe("CompositeReporter", func() {

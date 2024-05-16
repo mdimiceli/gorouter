@@ -4,7 +4,7 @@ package fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/gorouter/mbus"
+	"github.com/mdimiceli/gorouter/mbus"
 	nats "github.com/nats-io/nats.go"
 )
 

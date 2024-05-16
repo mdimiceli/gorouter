@@ -12,7 +12,7 @@ import (
 	"os"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/test_util"
+	"github.com/mdimiceli/gorouter/test_util"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gexec"
@@ -34,7 +34,7 @@ type Path struct {
 }
 
 var _ = SynchronizedBeforeSuite(func() []byte {
-	path, err := gexec.Build("code.cloudfoundry.org/gorouter", "-race")
+	path, err := gexec.Build("github.com/mdimiceli/gorouter", "-race")
 	Expect(err).ToNot(HaveOccurred())
 	test, err := os.MkdirTemp("", "test")
 	Expect(err).ToNot(HaveOccurred())

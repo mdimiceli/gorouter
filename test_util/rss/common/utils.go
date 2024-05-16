@@ -6,7 +6,7 @@ import (
 	"os"
 	"os/user"
 
-	"code.cloudfoundry.org/gorouter/common/secure"
+	"github.com/mdimiceli/gorouter/common/secure"
 	"github.com/codegangsta/cli"
 )
 

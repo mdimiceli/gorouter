@@ -15,10 +15,10 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/mbus"
-	"code.cloudfoundry.org/gorouter/route"
-	"code.cloudfoundry.org/gorouter/test_util"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/mbus"
+	"github.com/mdimiceli/gorouter/route"
+	"github.com/mdimiceli/gorouter/test_util"
 
 	nats "github.com/nats-io/nats.go"
 	yaml "gopkg.in/yaml.v2"

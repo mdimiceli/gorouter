@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"code.cloudfoundry.org/gorouter/config"
+	"github.com/mdimiceli/gorouter/config"
 
-	router_http "code.cloudfoundry.org/gorouter/common/http"
-	"code.cloudfoundry.org/gorouter/handlers"
-	"code.cloudfoundry.org/gorouter/logger/fakes"
-	"code.cloudfoundry.org/gorouter/route"
+	router_http "github.com/mdimiceli/gorouter/common/http"
+	"github.com/mdimiceli/gorouter/handlers"
+	"github.com/mdimiceli/gorouter/logger/fakes"
+	"github.com/mdimiceli/gorouter/route"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

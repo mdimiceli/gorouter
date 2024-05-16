@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/metrics"
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/metrics"
+	"github.com/mdimiceli/gorouter/route"
 )
 
 type FakeProxyReporter struct {

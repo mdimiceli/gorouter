@@ -1,10 +1,10 @@
 package container_test
 
 import (
-	"code.cloudfoundry.org/gorouter/logger/fakes"
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/logger/fakes"
+	"github.com/mdimiceli/gorouter/route"
 
-	"code.cloudfoundry.org/gorouter/registry/container"
+	"github.com/mdimiceli/gorouter/registry/container"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

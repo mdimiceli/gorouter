@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/common/uuid"
-	"code.cloudfoundry.org/gorouter/logger"
-	"code.cloudfoundry.org/gorouter/proxy/utils"
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/common/uuid"
+	"github.com/mdimiceli/gorouter/logger"
+	"github.com/mdimiceli/gorouter/proxy/utils"
+	"github.com/mdimiceli/gorouter/route"
 	gouuid "github.com/nu7hatch/gouuid"
 	"go.uber.org/zap"
 

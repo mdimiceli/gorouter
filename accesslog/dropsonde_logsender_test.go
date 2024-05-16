@@ -1,11 +1,11 @@
 package accesslog_test
 
 import (
-	"code.cloudfoundry.org/gorouter/accesslog"
-	"code.cloudfoundry.org/gorouter/accesslog/fakes"
-	"code.cloudfoundry.org/gorouter/accesslog/schema"
-	"code.cloudfoundry.org/gorouter/config"
-	loggerFakes "code.cloudfoundry.org/gorouter/logger/fakes"
+	"github.com/mdimiceli/gorouter/accesslog"
+	"github.com/mdimiceli/gorouter/accesslog/fakes"
+	"github.com/mdimiceli/gorouter/accesslog/schema"
+	"github.com/mdimiceli/gorouter/config"
+	loggerFakes "github.com/mdimiceli/gorouter/logger/fakes"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"google.golang.org/protobuf/proto"

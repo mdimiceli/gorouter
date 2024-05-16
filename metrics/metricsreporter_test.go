@@ -9,12 +9,12 @@ import (
 	"net/url"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/config"
+	"github.com/mdimiceli/gorouter/config"
 
-	"code.cloudfoundry.org/gorouter/metrics"
-	"code.cloudfoundry.org/gorouter/metrics/fakes"
+	"github.com/mdimiceli/gorouter/metrics"
+	"github.com/mdimiceli/gorouter/metrics/fakes"
 
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/route"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

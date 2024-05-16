@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/common/uuid"
-	"code.cloudfoundry.org/gorouter/route"
-	"code.cloudfoundry.org/gorouter/test_util"
+	"github.com/mdimiceli/gorouter/common/uuid"
+	"github.com/mdimiceli/gorouter/route"
+	"github.com/mdimiceli/gorouter/test_util"
 	nats "github.com/nats-io/nats.go"
 	. "github.com/onsi/gomega"
 )

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/common/secure/fakes"
-	"code.cloudfoundry.org/gorouter/routeservice"
+	"github.com/mdimiceli/gorouter/common/secure/fakes"
+	"github.com/mdimiceli/gorouter/routeservice"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

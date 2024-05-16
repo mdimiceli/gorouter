@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/route"
-	"code.cloudfoundry.org/gorouter/test/common"
-	"code.cloudfoundry.org/gorouter/test_util"
+	"github.com/mdimiceli/gorouter/route"
+	"github.com/mdimiceli/gorouter/test/common"
+	"github.com/mdimiceli/gorouter/test_util"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

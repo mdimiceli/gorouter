@@ -14,7 +14,7 @@ import (
 	"net/http"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/config"
+	"github.com/mdimiceli/gorouter/config"
 )
 
 type CertType int

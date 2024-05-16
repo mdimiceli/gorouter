@@ -1,8 +1,8 @@
 package router_test
 
 import (
-	"code.cloudfoundry.org/gorouter/registry"
-	"code.cloudfoundry.org/gorouter/test/common"
+	"github.com/mdimiceli/gorouter/registry"
+	"github.com/mdimiceli/gorouter/test/common"
 )
 
 func appRegistered(registry *registry.RouteRegistry, app *common.TestApp) bool {

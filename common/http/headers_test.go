@@ -3,8 +3,8 @@ package http_test
 import (
 	"net/http"
 
-	commonhttp "code.cloudfoundry.org/gorouter/common/http"
-	httpfakes "code.cloudfoundry.org/gorouter/common/http/fakes"
+	commonhttp "github.com/mdimiceli/gorouter/common/http"
+	httpfakes "github.com/mdimiceli/gorouter/common/http/fakes"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

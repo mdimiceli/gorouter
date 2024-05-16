@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/route"
 
 	"github.com/cloudfoundry/dropsonde/metrics"
 )

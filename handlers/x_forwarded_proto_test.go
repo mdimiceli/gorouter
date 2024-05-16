@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"code.cloudfoundry.org/gorouter/handlers"
+	"github.com/mdimiceli/gorouter/handlers"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

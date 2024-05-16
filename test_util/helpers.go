@@ -26,9 +26,9 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/registry"
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/registry"
+	"github.com/mdimiceli/gorouter/route"
 )
 
 func RegisterAddr(reg *registry.RouteRegistry, path string, addr string, cfg RegisterConfig) {

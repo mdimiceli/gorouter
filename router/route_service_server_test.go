@@ -3,8 +3,8 @@ package router_test
 import (
 	"net/http"
 
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/router"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/router"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

@@ -23,12 +23,12 @@ import (
 	"golang.org/x/net/http2"
 
 	tls_helpers "code.cloudfoundry.org/cf-routing-test-helpers/tls"
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/mbus"
-	"code.cloudfoundry.org/gorouter/route"
-	"code.cloudfoundry.org/gorouter/test"
-	"code.cloudfoundry.org/gorouter/test/common"
-	"code.cloudfoundry.org/gorouter/test_util"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/mbus"
+	"github.com/mdimiceli/gorouter/route"
+	"github.com/mdimiceli/gorouter/test"
+	"github.com/mdimiceli/gorouter/test/common"
+	"github.com/mdimiceli/gorouter/test_util"
 	"code.cloudfoundry.org/tlsconfig"
 
 	nats "github.com/nats-io/nats.go"

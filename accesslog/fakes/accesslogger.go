@@ -4,8 +4,8 @@ package fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/gorouter/accesslog"
-	"code.cloudfoundry.org/gorouter/accesslog/schema"
+	"github.com/mdimiceli/gorouter/accesslog"
+	"github.com/mdimiceli/gorouter/accesslog/schema"
 )
 
 type FakeAccessLogger struct {

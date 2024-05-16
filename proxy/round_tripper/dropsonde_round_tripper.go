@@ -5,7 +5,7 @@ import (
 
 	"github.com/cloudfoundry/dropsonde"
 
-	"code.cloudfoundry.org/gorouter/proxy/utils"
+	"github.com/mdimiceli/gorouter/proxy/utils"
 )
 
 func NewDropsondeRoundTripper(p ProxyRoundTripper) ProxyRoundTripper {

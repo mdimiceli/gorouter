@@ -7,11 +7,11 @@ import (
 	"net/http/httptest"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/handlers"
-	"code.cloudfoundry.org/gorouter/logger"
-	metrics_fakes "code.cloudfoundry.org/gorouter/metrics/fakes"
-	"code.cloudfoundry.org/gorouter/route"
-	"code.cloudfoundry.org/gorouter/test_util"
+	"github.com/mdimiceli/gorouter/handlers"
+	"github.com/mdimiceli/gorouter/logger"
+	metrics_fakes "github.com/mdimiceli/gorouter/metrics/fakes"
+	"github.com/mdimiceli/gorouter/route"
+	"github.com/mdimiceli/gorouter/test_util"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

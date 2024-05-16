@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/config"
+	"github.com/mdimiceli/gorouter/config"
 
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/route"
 )
 
 //go:generate counterfeiter -o fakes/access_log_record.go . LogSender

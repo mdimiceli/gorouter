@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	. "code.cloudfoundry.org/gorouter/config"
+	. "github.com/mdimiceli/gorouter/config"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"code.cloudfoundry.org/gorouter/test_util"
+	"github.com/mdimiceli/gorouter/test_util"
 
 	yaml "gopkg.in/yaml.v2"
 )

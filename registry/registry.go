@@ -8,11 +8,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/logger"
-	"code.cloudfoundry.org/gorouter/metrics"
-	"code.cloudfoundry.org/gorouter/registry/container"
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/logger"
+	"github.com/mdimiceli/gorouter/metrics"
+	"github.com/mdimiceli/gorouter/registry/container"
+	"github.com/mdimiceli/gorouter/route"
 )
 
 //go:generate counterfeiter -o fakes/fake_registry.go . Registry

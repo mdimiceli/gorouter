@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/test_util"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/test_util"
 
 	yaml "gopkg.in/yaml.v2"
 

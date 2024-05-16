@@ -4,7 +4,7 @@ package fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/gorouter/proxy/utils"
+	"github.com/mdimiceli/gorouter/proxy/utils"
 )
 
 type ErrorHandler struct {

@@ -4,7 +4,7 @@ package fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/gorouter/metrics/monitor"
+	"github.com/mdimiceli/gorouter/metrics/monitor"
 )
 
 type FakeSubscriber struct {

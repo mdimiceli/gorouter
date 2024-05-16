@@ -6,7 +6,7 @@ import (
 	"errors"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/common/secure"
+	"github.com/mdimiceli/gorouter/common/secure"
 )
 
 type SignatureContents struct {

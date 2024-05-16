@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"code.cloudfoundry.org/gorouter/test_util/rss/commands"
+	"github.com/mdimiceli/gorouter/test_util/rss/commands"
 	"github.com/codegangsta/cli"
 )
 

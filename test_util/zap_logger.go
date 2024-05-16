@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"code.cloudfoundry.org/gorouter/logger"
+	"github.com/mdimiceli/gorouter/logger"
 	"github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega/gbytes"
 	"go.uber.org/zap"

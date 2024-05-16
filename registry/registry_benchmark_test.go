@@ -14,12 +14,12 @@ import (
 	"github.com/onsi/gomega/gbytes"
 	"go.uber.org/zap"
 
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/logger"
-	"code.cloudfoundry.org/gorouter/metrics"
-	"code.cloudfoundry.org/gorouter/registry"
-	"code.cloudfoundry.org/gorouter/route"
-	"code.cloudfoundry.org/gorouter/test_util"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/logger"
+	"github.com/mdimiceli/gorouter/metrics"
+	"github.com/mdimiceli/gorouter/registry"
+	"github.com/mdimiceli/gorouter/route"
+	"github.com/mdimiceli/gorouter/test_util"
 )
 
 var testLogger = setupLogger()

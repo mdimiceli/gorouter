@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/common/secure"
-	"code.cloudfoundry.org/gorouter/routeservice"
-	"code.cloudfoundry.org/gorouter/test_util"
+	"github.com/mdimiceli/gorouter/common/secure"
+	"github.com/mdimiceli/gorouter/routeservice"
+	"github.com/mdimiceli/gorouter/test_util"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/types"

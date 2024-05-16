@@ -12,13 +12,13 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"code.cloudfoundry.org/gorouter/metrics"
-	"code.cloudfoundry.org/gorouter/metrics/fakes"
-	"code.cloudfoundry.org/gorouter/proxy/fails"
-	"code.cloudfoundry.org/gorouter/proxy/round_tripper"
-	"code.cloudfoundry.org/gorouter/proxy/utils"
+	"github.com/mdimiceli/gorouter/metrics"
+	"github.com/mdimiceli/gorouter/metrics/fakes"
+	"github.com/mdimiceli/gorouter/proxy/fails"
+	"github.com/mdimiceli/gorouter/proxy/round_tripper"
+	"github.com/mdimiceli/gorouter/proxy/utils"
 
-	router_http "code.cloudfoundry.org/gorouter/common/http"
+	router_http "github.com/mdimiceli/gorouter/common/http"
 )
 
 var _ = Describe("HandleError", func() {

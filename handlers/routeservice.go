@@ -8,14 +8,14 @@ import (
 	"regexp"
 	"strings"
 
-	"code.cloudfoundry.org/gorouter/errorwriter"
-	"code.cloudfoundry.org/gorouter/logger"
-	"code.cloudfoundry.org/gorouter/registry"
-	"code.cloudfoundry.org/gorouter/routeservice"
+	"github.com/mdimiceli/gorouter/errorwriter"
+	"github.com/mdimiceli/gorouter/logger"
+	"github.com/mdimiceli/gorouter/registry"
+	"github.com/mdimiceli/gorouter/routeservice"
 	"go.uber.org/zap"
 	"github.com/urfave/negroni/v3"
 
-	"code.cloudfoundry.org/gorouter/route"
+	"github.com/mdimiceli/gorouter/route"
 )
 
 type RouteService struct {

@@ -3,10 +3,10 @@ package common_test
 import (
 	"io"
 
-	. "code.cloudfoundry.org/gorouter/common"
-	"code.cloudfoundry.org/gorouter/common/health"
-	"code.cloudfoundry.org/gorouter/logger"
-	"code.cloudfoundry.org/gorouter/test_util"
+	. "github.com/mdimiceli/gorouter/common"
+	"github.com/mdimiceli/gorouter/common/health"
+	"github.com/mdimiceli/gorouter/logger"
+	"github.com/mdimiceli/gorouter/test_util"
 	"github.com/nats-io/nats.go"
 
 	. "github.com/onsi/ginkgo/v2"

@@ -4,10 +4,10 @@ import (
 	"errors"
 	"net/http"
 
-	"code.cloudfoundry.org/gorouter/logger/fakes"
+	"github.com/mdimiceli/gorouter/logger/fakes"
 	"code.cloudfoundry.org/lager/v3"
 
-	. "code.cloudfoundry.org/gorouter/logger"
+	. "github.com/mdimiceli/gorouter/logger"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

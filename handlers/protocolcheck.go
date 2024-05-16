@@ -8,8 +8,8 @@ import (
 
 	"fmt"
 
-	"code.cloudfoundry.org/gorouter/errorwriter"
-	"code.cloudfoundry.org/gorouter/logger"
+	"github.com/mdimiceli/gorouter/errorwriter"
+	"github.com/mdimiceli/gorouter/logger"
 	"github.com/urfave/negroni/v3"
 )
 

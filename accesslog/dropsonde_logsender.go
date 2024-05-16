@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/accesslog/schema"
-	"code.cloudfoundry.org/gorouter/config"
-	goRouterLogger "code.cloudfoundry.org/gorouter/logger"
+	"github.com/mdimiceli/gorouter/accesslog/schema"
+	"github.com/mdimiceli/gorouter/config"
+	goRouterLogger "github.com/mdimiceli/gorouter/logger"
 	"github.com/cloudfoundry/dropsonde"
 	"github.com/cloudfoundry/dropsonde/emitter"
 	"github.com/cloudfoundry/sonde-go/events"

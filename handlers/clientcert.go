@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strings"
 
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/errorwriter"
-	"code.cloudfoundry.org/gorouter/logger"
-	"code.cloudfoundry.org/gorouter/routeservice"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/errorwriter"
+	"github.com/mdimiceli/gorouter/logger"
+	"github.com/mdimiceli/gorouter/routeservice"
 	"go.uber.org/zap"
 	"github.com/urfave/negroni/v3"
 )

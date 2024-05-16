@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/routeservice"
-	"code.cloudfoundry.org/gorouter/test_util/rss/common"
+	"github.com/mdimiceli/gorouter/routeservice"
+	"github.com/mdimiceli/gorouter/test_util/rss/common"
 	"github.com/codegangsta/cli"
 )
 

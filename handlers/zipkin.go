@@ -7,7 +7,7 @@ import (
 	"go.uber.org/zap"
 	"github.com/urfave/negroni/v3"
 
-	"code.cloudfoundry.org/gorouter/logger"
+	"github.com/mdimiceli/gorouter/logger"
 )
 
 // Zipkin is a handler that sets Zipkin headers on requests

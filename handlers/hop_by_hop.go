@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/logger"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/logger"
 )
 
 type HopByHop struct {

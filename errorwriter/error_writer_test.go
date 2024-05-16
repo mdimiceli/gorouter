@@ -10,8 +10,8 @@ import (
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gbytes"
 
-	. "code.cloudfoundry.org/gorouter/errorwriter"
-	loggerfakes "code.cloudfoundry.org/gorouter/logger/fakes"
+	. "github.com/mdimiceli/gorouter/errorwriter"
+	loggerfakes "github.com/mdimiceli/gorouter/logger/fakes"
 )
 
 var _ = Describe("Plaintext ErrorWriter", func() {

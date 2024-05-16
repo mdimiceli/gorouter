@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"sync"
 
-	"code.cloudfoundry.org/gorouter/common/schema"
+	"github.com/mdimiceli/gorouter/common/schema"
 )
 
 type GenericVarz struct {

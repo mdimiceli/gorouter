@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"net/http"
 
-	router_http "code.cloudfoundry.org/gorouter/common/http"
+	router_http "github.com/mdimiceli/gorouter/common/http"
 
-	"code.cloudfoundry.org/gorouter/common/health"
+	"github.com/mdimiceli/gorouter/common/health"
 
-	"code.cloudfoundry.org/gorouter/logger"
+	"github.com/mdimiceli/gorouter/logger"
 	"go.uber.org/zap"
 	"github.com/urfave/negroni/v3"
 )

@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/logger"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/logger"
 	"code.cloudfoundry.org/tlsconfig"
 	"github.com/nats-io/nats.go"
 	"go.uber.org/zap"

@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/logger"
+	"github.com/mdimiceli/gorouter/logger"
 	"go.uber.org/zap"
 )
 

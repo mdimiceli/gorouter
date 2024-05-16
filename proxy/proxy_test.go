@@ -22,7 +22,7 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/websocket"
 
-	"code.cloudfoundry.org/gorouter/common/health"
+	"github.com/mdimiceli/gorouter/common/health"
 
 	"github.com/cloudfoundry/dropsonde/factories"
 	"github.com/cloudfoundry/sonde-go/events"
@@ -30,11 +30,11 @@ import (
 	"github.com/openzipkin/zipkin-go/propagation/b3"
 	"go.uber.org/zap"
 
-	router_http "code.cloudfoundry.org/gorouter/common/http"
-	"code.cloudfoundry.org/gorouter/config"
-	"code.cloudfoundry.org/gorouter/handlers"
-	"code.cloudfoundry.org/gorouter/route"
-	"code.cloudfoundry.org/gorouter/test_util"
+	router_http "github.com/mdimiceli/gorouter/common/http"
+	"github.com/mdimiceli/gorouter/config"
+	"github.com/mdimiceli/gorouter/handlers"
+	"github.com/mdimiceli/gorouter/route"
+	"github.com/mdimiceli/gorouter/test_util"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

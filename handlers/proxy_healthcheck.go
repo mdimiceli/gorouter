@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"code.cloudfoundry.org/gorouter/common/health"
+	"github.com/mdimiceli/gorouter/common/health"
 	"github.com/urfave/negroni/v3"
 )
 

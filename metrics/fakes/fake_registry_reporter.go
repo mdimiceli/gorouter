@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/metrics"
+	"github.com/mdimiceli/gorouter/metrics"
 )
 
 type FakeRouteRegistryReporter struct {

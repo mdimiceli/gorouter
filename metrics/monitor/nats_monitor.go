@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/logger"
+	"github.com/mdimiceli/gorouter/logger"
 	"github.com/cloudfoundry/dropsonde/metrics"
 	"go.uber.org/zap"
 )

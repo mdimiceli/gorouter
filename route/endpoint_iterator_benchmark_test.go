@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"code.cloudfoundry.org/gorouter/logger/fakes"
-	"code.cloudfoundry.org/gorouter/route"
-	"code.cloudfoundry.org/gorouter/test_util"
+	"github.com/mdimiceli/gorouter/logger/fakes"
+	"github.com/mdimiceli/gorouter/route"
+	"github.com/mdimiceli/gorouter/test_util"
 )
 
 func testLoadBalance(lb route.EndpointIterator, b *testing.B) {
