@@ -12,7 +12,7 @@ import (
 	"github.com/cloudfoundry/dropsonde/factories"
 	"github.com/cloudfoundry/sonde-go/events"
 	uuid "github.com/nu7hatch/gouuid"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 	"github.com/urfave/negroni/v3"
 	"google.golang.org/protobuf/proto"
 )

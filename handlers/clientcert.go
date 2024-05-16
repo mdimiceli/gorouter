@@ -11,7 +11,7 @@ import (
 	"code.cloudfoundry.org/gorouter/errorwriter"
 	"code.cloudfoundry.org/gorouter/logger"
 	"code.cloudfoundry.org/gorouter/routeservice"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 	"github.com/urfave/negroni/v3"
 )
 

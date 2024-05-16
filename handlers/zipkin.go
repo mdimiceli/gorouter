@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/openzipkin/zipkin-go/propagation/b3"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 	"github.com/urfave/negroni/v3"
 
 	"code.cloudfoundry.org/gorouter/logger"
